@@ -37,7 +37,7 @@ const MORSE_TABLE = {
     '-----':  '0',
 };
 
-function decode(expr) {
+function decode(str) {
     const DECODE_MAP = {
         11: '-',
         10: '.',
